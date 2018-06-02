@@ -11,6 +11,9 @@
 #include <stdbool.h>
 #include <stddef.h>
 
+#define VERSION "1.2"
+#define COMPILATION "2018-06-02"
+
 /**
  * A node is the unit with which the linked lists are mounted.
  * Each node has a reference to its predecessor and its successor.
@@ -38,6 +41,9 @@ typedef struct list {
 	node_t * tail;
 } list_t;
 
+/*
+ * Prototypes
+ */
 /* list.c */
 void listVersion(void);
 list_t *listNew(list_t **list);
