@@ -11,7 +11,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#define VERSION "1.2"
+//#define VERSION "1.2"
 #define COMPILATION "2018-06-02"
 
 /**
